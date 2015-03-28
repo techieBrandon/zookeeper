@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export ZOOKEEPER_HOME=/usr/local/zookeeper
+export ZOO_LOG4J_PROP=INFO,ROLLINGFILE
+export ZOO_LOG_DIR=/var/log/zookeeper
+export ZOOPIDFILE=/var/run/zookeeper/zookeeper-server.pid
